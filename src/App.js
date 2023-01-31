@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Content data={data} />
+      <Content tab={data} />
     </>
   );
 }

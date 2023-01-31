@@ -1,9 +1,9 @@
 const CarousselFilm = (props) => {
-  console.log(props);
-  const filmList = props.map((film) => {
-    return <p>{film}</p>;
+  console.log(props.film);
+  const filmList = props.film.map((film) => {
+    return <img src={film} alt="" />;
   });
-  return <div className="filmList">{filmList}</div>;
+  return <div className="filmList example">{filmList}</div>;
 };
 
 export default CarousselFilm;

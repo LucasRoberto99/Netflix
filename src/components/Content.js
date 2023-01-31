@@ -1,6 +1,7 @@
 import Genre from "./Genre";
 
-const Content = (data) => {
+const Content = (props) => {
+  const data = props.tab;
   return (
     <main className="content">
       {data.map((list) => {
